@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: calculator
-        image: samarth502/task6p
+        image: samarth502/task6c:v2
         ports:
         - containerPort: 3003

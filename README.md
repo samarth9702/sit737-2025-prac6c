@@ -1,6 +1,6 @@
 
 
-# 🧮 Advance Calculator Microservice
+# 🧮 Updated Calculator Microservice
 
 This project is a basic calculator microservice built using **Node.js** and **Express**. It supports **addition**, **subtraction**, **multiplication**, and **division** through REST API endpoints. It also includes **logging** using the Winston library and a **simple web UI**.
 
@@ -36,7 +36,7 @@ This project is a basic calculator microservice built using **Node.js** and **Ex
 
 3. Run the Microservice by using - "node server.js"
 
-4. Access it via: http://localhost:3003 
+4. Access it via: http://localhost:3003
 
 
 # 🐳 Dockerizing the Application
@@ -45,12 +45,14 @@ This project is a basic calculator microservice built using **Node.js** and **Ex
 - Visual Studio code (https://code.visualstudio.com/)
 - Node.js (https://nodejs.org/en/download/)
 - Docker (https://app.docker.com/)
+- Kubernetes (computing platform to host your microservice)
+- Kubectl (the command-line tool for interacting with Kubernetes cluster)
 
 
 # 📦 Steps to Dockerize and Run the App
 ## 1. Clone the repository
 ```
-git clone https://github.com/samarth9702/sit737-2025-prac6p.git
+git clone https://github.com/samarth9702/sit737-2025-prac6c.git
 
 cd sit737-2025-prac6p
 ```
@@ -103,12 +105,12 @@ kubectl get pods
 kubectl get services
 ```
 # 🔄 Update the Application
-1. Modify source code (e.g., update title in index.html)
+1. Modify source code (for example, I have updated title in index.html)
 2. Build new Docker image with a new version:
 
 ```
-docker build -t samarth502/task6p:v2 .
-docker push samarth502/task6p:v2
+docker build -t samarth502/task6c:v2 .
+docker push samarth502/task6c:v2
 ```
 3. Update Kubernetes deployment image:
 
